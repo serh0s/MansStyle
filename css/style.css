@@ -1,0 +1,411 @@
+@font-face {
+  font-family: "Post No Bills Jaffna";
+  src: url(../fonts/PostNoBillsJaffna-Bold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #fff;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.PNBJ {
+  text-transform: uppercase;
+  font-family: "Post No Bills Jaffna";
+  font-size: 36px;
+}
+
+.text {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.Payfair {
+  font-family: "Playfair Display";
+  font-size: 24px;
+  line-height: 133.33333%;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.PayfairBold {
+  font-family: "Playfair Display";
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.top {
+  background-color: #000;
+}
+
+.top__container {
+  min-height: 44px;
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.top__container .work__time {
+  min-width: 350px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.top__container .work__time .image__enter {
+  width: 16px;
+  height: 16px;
+}
+
+.top__container .work__time .info__text {
+  font-size: 12px;
+  line-height: 16px;
+  color: #969696;
+}
+
+.top__container .login {
+  min-width: 150px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.top__container .login .image__enter {
+  width: 14px;
+  height: 14px;
+}
+
+.top__container .login__button {
+  border: none;
+  background-color: transparent;
+  color: #939393;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.second {
+  background-color: #0f0f0f;
+}
+
+.second__container {
+  min-height: 80px;
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.second__container .top__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.second__container .top__menu .list__menu {
+  text-transform: uppercase;
+  color: #969696;
+  font-size: 14px;
+  line-height: 18px;
+  line-height: 80px;
+  padding: 0 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.second__container .top__menu .list__menu:hover {
+  color: #ffffff;
+  background-color: #1f1f1f;
+}
+
+.second__container .top__menu .list__menu:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.logotip {
+  background-image: url(../img/mainbg.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.logotip .logo {
+  height: 312px;
+  width: 312px;
+  border: 4px solid #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 160px 0 80px 0;
+}
+
+.logotip .logo__about {
+  font-size: 64px;
+  line-height: 64px;
+  text-decoration: underline;
+}
+
+.logotip .logo__town {
+  margin-top: 10px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.logotip .description {
+  max-width: 730px;
+  width: 100%;
+  max-height: 96px;
+  text-align: center;
+  margin-bottom: 154px;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.section-one, .section-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 730px;
+}
+
+.section-one .left-block, .section-one .right-bar, .section-two .left-block, .section-two .right-bar {
+  background-color: #000;
+  width: 54.16%;
+}
+
+.section-one .right-block, .section-one .left-bar, .section-two .right-block, .section-two .left-bar {
+  background-size: cover;
+  width: 45.84%;
+}
+
+.left-block__title {
+  margin: 92px 0 51px 0;
+}
+
+.right-block {
+  background-image: url(../img/man1.png);
+  padding-top: 484px;
+}
+
+.right-block__line {
+  margin: 30px 0;
+}
+
+.left-block__line, .right-block__line, .right-bar__line, .products__line, .our-brands__line {
+  width: 120px;
+  color: #fff;
+}
+
+.left-block__offers, .right-block__offers, .right-bar__offers, .products__offers, .our-brands__offers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  margin: 50px 80px 93px 80px;
+}
+
+.left-block__offers .offer__image, .right-block__offers .offer__image, .right-bar__offers .offer__image, .products__offers .offer__image, .our-brands__offers .offer__image {
+  margin: 53px 23px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.left-block__button, .right-block__button, .right-bar__button, .products__button, .our-brands__button {
+  width: 138px;
+  height: 47px;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: transparent;
+  padding: 12px 28px;
+  cursor: pointer;
+}
+
+.section-two {
+  height: 600px;
+}
+
+.section-two .left-bar {
+  background-image: url(../img/man2.png);
+}
+
+.section-two .right-bar__title {
+  margin: 100px 0 40px 0;
+}
+
+.section-two .right-bar__description {
+  font-family: "PT Sans";
+  max-width: 471px;
+  max-height: 173px;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 40px 0 61px 0;
+  text-align: center;
+}
+
+.section-two .right-bar__button {
+  width: 311px;
+}
+
+.products {
+  background-color: #000;
+}
+
+.products__title {
+  margin: 135px 0 40px 0;
+}
+
+.products__offers {
+  max-width: 1109px;
+  margin: 0;
+  margin-top: 81px;
+  margin-bottom: 135px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+}
+
+.our-brands {
+  background-color: #0F0F0F;
+}
+
+.our-brands__title {
+  margin: 60px 0 40px 0;
+}
+
+.our-brands__offers {
+  max-width: 1110px;
+  margin: 40px 0 80px 0;
+}
+
+.about, .filter, .mail {
+  max-width: 350px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 350px;
+          flex: 1 350px;
+}
+
+.about__title, .filter__title, .mail__title {
+  margin: 80px 0 40px 0;
+  line-height: 116.66667%;
+}
+
+.footer {
+  background-image: url(../img/footerbg.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 400px;
+}
+
+.footer__container {
+  margin: 0 auto;
+  max-width: 1110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.filter__list {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  margin: 0 -5px;
+}
+
+.filter__item {
+  padding: 10px 20px;
+  background-color: #0F0F0F;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  margin: 0 5px 10px 5px;
+  text-align: center;
+  color: #D0D0D0;
+  cursor: pointer;
+}
+
+.mail__input {
+  margin-top: 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mail .input {
+  display: block;
+  width: 210px;
+  height: 42px;
+  outline: none;
+  opacity: 40%;
+}
+
+.mail .input__btn {
+  display: block;
+  width: 140px;
+  text-transform: uppercase;
+  border: none;
+  color: #fff;
+  background-color: #0F0F0F;
+  cursor: pointer;
+  -webkit-transition: none;
+  transition: none;
+}
+/*# sourceMappingURL=style.css.map */
